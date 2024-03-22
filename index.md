@@ -180,9 +180,9 @@ COURSE MATERIAL
 
 CRS added this block to link to the course materials.
 {% endcomment %}
-<p id="course_materials">
+<p id="requirements">
   <strong>Course Materials:</strong>
-  The course materials are here: (<a href="https://swcarpentry.github.io/python-novice-gapminder/index.html">Plotting and Programming in Python</a>).
+  The course materials are here: <a href="https://swcarpentry.github.io/python-novice-gapminder/index.html">Plotting and Programming in Python</a>).
 </p>
 
 {% comment %}
