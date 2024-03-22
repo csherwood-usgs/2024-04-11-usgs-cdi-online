@@ -158,7 +158,7 @@ address.
 {% elsif online == "true_private" %}
 <p id="where">
   <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  We will be using Microsoft Teams to conduce the videoconference.
 </p>
 {% endif %}
 
@@ -174,6 +174,16 @@ This block displays the date and links to Google Calendar.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
+
+{% comment %}
+COURSE MATERIAL
+
+CRS added this block to link to the course materials.
+{% endcomment %}
+<p id="course_materials">
+  <strong>Course Materials:</strong>
+  The course materials are here: (<a href="https://swcarpentry.github.io/python-novice-gapminder/index.html">Plotting and Programming in Python/a>).
+</p>
 
 {% comment %}
 SPECIAL REQUIREMENTS
