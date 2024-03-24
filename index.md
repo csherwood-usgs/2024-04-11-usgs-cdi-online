@@ -158,7 +158,7 @@ address.
 {% elsif online == "true_private" %}
 <p id="where">
   <strong>Where:</strong> This training will take place online.
-  We will be using Microsoft Teams to conduce the videoconference.
+  We will be using Microsoft Teams to conduct the videoconference.
 </p>
 {% endif %}
 
